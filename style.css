@@ -1,0 +1,223 @@
+/* Google Font */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Body */
+body{
+    font-family:'Poppins', sans-serif;
+    background:#f4f6f8;
+    color:#333;
+    line-height:1.9;
+}
+
+/* Navbar */
+nav{
+    background:#1f2937;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 40px;
+    position:sticky;
+    top:0;
+    z-index:100;
+}
+
+.logo{
+    font-size:1.4rem;
+    font-weight:600;
+}
+
+nav ul{
+    list-style:none;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-weight:500;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:#fbbf24;
+}
+
+/* Main Container */
+.big-container{
+    width:90%;
+    max-width:1100px;
+    margin:40px auto;
+    background:white;
+    padding:40px;
+    border-radius:18px;
+    box-shadow:0 4px 20px rgba(0,0,0,0.08);
+}
+
+/* QR Image */
+.hero{
+    text-align:center;
+    margin-bottom:35px;
+}
+
+.hero img{
+    width:100%;
+    max-width:320px;
+    border-radius:12px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.12);
+}
+
+/* Heading */
+h1{
+    text-align:center;
+    color:#b91c1c;
+    margin-bottom:30px;
+    font-size:2rem;
+    line-height:1.4;
+}
+
+h2{
+    color:#b91c1c;
+    margin-bottom:20px;
+}
+
+/* Paragraphs */
+p{
+    margin-bottom:24px;
+    text-align:justify;
+    font-size:1rem;
+}
+
+/* Divider */
+hr{
+    margin:40px 0;
+    border:none;
+    border-top:1px solid #ddd;
+}
+
+/* Patient Details Box */
+.patient-details{
+    background:#fafafa;
+    border-left:5px solid #b91c1c;
+    padding:25px;
+    border-radius:12px;
+    margin-bottom:30px;
+}
+
+.patient-details p{
+    margin-bottom:14px;
+}
+
+/* Contact Number */
+.phone-link{
+    color:#2563eb;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.phone-link:hover{
+    text-decoration:underline;
+}
+
+/* Thank You */
+.thank-you{
+    text-align:center;
+    font-weight:500;
+    margin-top:20px;
+}
+
+/* Tablet */
+@media screen and (max-width:768px){
+
+    nav{
+        padding:15px 20px;
+    }
+
+    .big-container{
+        width:95%;
+        padding:25px;
+        margin:25px auto;
+    }
+
+    h1{
+        font-size:1.6rem;
+    }
+
+    p{
+        text-align:left;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width:480px){
+
+    nav{
+        flex-direction:column;
+        gap:10px;
+        text-align:center;
+    }
+
+    .logo{
+        font-size:1.2rem;
+    }
+
+    .big-container{
+        width:95%;
+        padding:20px;
+    }
+
+    h1{
+        font-size:1.35rem;
+    }
+
+    h2{
+        font-size:1.15rem;
+    }
+
+    p{
+        font-size:0.95rem;
+        line-height:1.8;
+    }
+
+    .hero img{
+        max-width:220px;
+    }
+
+    .patient-details{
+        padding:18px;
+    }
+}
+.donation-details{
+    text-align:center;
+    margin-bottom:35px;
+    padding:20px;
+    background:#fafafa;
+    border-radius:12px;
+    border:1px solid #e5e7eb;
+}
+
+.donation-title{
+    font-size:1.1rem;
+    font-weight:600;
+    color:#b91c1c;
+    margin-bottom:12px;
+}
+
+.upi-id{
+    font-weight:600;
+    color:#2563eb;
+    word-break:break-all;
+}
+
+.phone-link{
+    color:#2563eb;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.phone-link:hover{
+    text-decoration:underline;
+}
